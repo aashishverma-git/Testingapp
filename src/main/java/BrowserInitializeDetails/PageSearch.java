@@ -5,7 +5,6 @@ import java.net.URL;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -13,6 +12,7 @@ public class PageSearch {
 	WebDriver driver;
 	public void homepage(WebDriver driver) throws InterruptedException {
 		this.driver = driver;
+		
 		driver.get("https://www.brevistay.com/");
 		driver.manage().window().maximize();
 	}

@@ -15,7 +15,7 @@ public class VerifyRatings extends InitializeBrowser {
 
 public Properties readPropertyFile() throws IOException {
 	Properties prop = new Properties();
-	File file = new File("C:\\Users\\aashi\\OneDrive\\Desktop\\Xpath.properties");
+	File file = new File("src\\main\\java\\BrowserInitializeDetails\\Xpath.properties");
 	 FileReader reader = new FileReader(file);
      prop.load(reader);
 	return prop;

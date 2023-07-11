@@ -8,13 +8,22 @@
       <class name="TestCases.Brevistay">
         <methods>
           <include name="verifyingAreaFilter"/>
+          <include name="launchHomepage"/>
           <include name="verifyingCoupleFriendly"/>
           <include name="login"/>
-          <include name="selectCity" invocation-numbers="0"/>
+          <include name="selectCity"/>
           <include name="browser"/>
           <include name="verifyingCoupleFriendlywithpah"/>
         </methods>
       </class> <!-- TestCases.Brevistay -->
+      <class name="TestCases.BrevistayRatingsAndTags">
+        <methods>
+          <include name="verifyingLuxuryTag"/>
+          <include name="verifyingPremiumTag"/>
+          <include name="prerequisites"/>
+          <include name="verifyRatingFourAndHalf"/>
+        </methods>
+      </class> <!-- TestCases.BrevistayRatingsAndTags -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
