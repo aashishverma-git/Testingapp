@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test name="Test">
+<suite name="Suite" >
+  <test name="Test" >
 	  <parameter name="browsername" value="chrome" />
 	  <parameter name="city" value="Hyderabad" />
     <classes >
-      <class name="TestCases.Brevistay"/> 
-     <class name="TestCases.BrevistayRatingsAndTags"/> 
+<!--        <class name="TestCases.Brevistay"/>  -->
+       <class name="PageFactoryExample.VerifyValidLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

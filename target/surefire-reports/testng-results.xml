@@ -1,85 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T20:55:46 IST" name="Suite" finished-at="2023-07-09T20:56:40 IST" duration-ms="54416">
+  <suite started-at="2024-09-26T14:38:55 IST" name="Suite" finished-at="2024-09-26T14:39:09 IST" duration-ms="13517">
     <groups>
     </groups>
-    <test started-at="2023-07-09T20:55:46 IST" name="Test" finished-at="2023-07-09T20:56:40 IST" duration-ms="54416">
-      <class name="TestCases.Brevistay">
-        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:55:46 IST" name="browser" finished-at="2023-07-09T20:55:49 IST" duration-ms="3279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-09-26T14:38:55 IST" name="Test" finished-at="2024-09-26T14:39:09 IST" duration-ms="13517">
+      <class name="PageFactoryExample.VerifyValidLogin">
+        <test-method signature="checkValidUser()[pri:0, instance:PageFactoryExample.VerifyValidLogin@2af004b]" started-at="2024-09-26T14:38:55 IST" name="checkValidUser" finished-at="2024-09-26T14:39:09 IST" duration-ms="13405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method signature="launchHomepage()[pri:1, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:56:06 IST" name="launchHomepage" description="Launch homepage" finished-at="2023-07-09T20:56:15 IST" duration-ms="9201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchHomepage -->
-        <test-method signature="login()[pri:3, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:56:15 IST" name="login" description="Login Check" finished-at="2023-07-09T20:56:20 IST" duration-ms="4798" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="selectCity(java.lang.String)[pri:4, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:56:20 IST" name="selectCity" description="Seach data with respective city" finished-at="2023-07-09T20:56:24 IST" duration-ms="4441" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectCity -->
-        <test-method signature="verifyingAreaFilter()[pri:5, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:56:24 IST" name="verifyingAreaFilter" description="Verify after filter applied" finished-at="2023-07-09T20:56:27 IST" duration-ms="2404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyingAreaFilter -->
-        <test-method signature="verifyingCoupleFriendly()[pri:6, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:56:27 IST" name="verifyingCoupleFriendly" description="Apply filter couple friendly." finished-at="2023-07-09T20:56:28 IST" duration-ms="1146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyingCoupleFriendly -->
-        <test-method signature="verifyingCoupleFriendlywithpah()[pri:7, instance:TestCases.Brevistay@48075da3]" started-at="2023-07-09T20:56:28 IST" name="verifyingCoupleFriendlywithpah" description="Apply filter couple friendly with Pay at Hotel." finished-at="2023-07-09T20:56:29 IST" duration-ms="1139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyingCoupleFriendlywithpah -->
-      </class> <!-- TestCases.Brevistay -->
-      <class name="TestCases.BrevistayRatingsAndTags">
-        <test-method is-config="true" signature="prerequisites(java.lang.String,java.lang.String)[pri:0, instance:TestCases.BrevistayRatingsAndTags@353352b6]" started-at="2023-07-09T20:55:49 IST" name="prerequisites" finished-at="2023-07-09T20:56:06 IST" duration-ms="16401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisites -->
-        <test-method signature="verifyRatingFourAndHalf()[pri:1, instance:TestCases.BrevistayRatingsAndTags@353352b6]" started-at="2023-07-09T20:56:29 IST" name="verifyRatingFourAndHalf" description="Verify Ratings with four and half" finished-at="2023-07-09T20:56:36 IST" duration-ms="6994" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRatingFourAndHalf -->
-        <test-method signature="verifyingPremiumTag()[pri:2, instance:TestCases.BrevistayRatingsAndTags@353352b6]" started-at="2023-07-09T20:56:36 IST" name="verifyingPremiumTag" description="Verify Premium Tag" finished-at="2023-07-09T20:56:38 IST" duration-ms="2287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyingPremiumTag -->
-        <test-method signature="verifyingLuxuryTag()[pri:3, instance:TestCases.BrevistayRatingsAndTags@353352b6]" started-at="2023-07-09T20:56:38 IST" name="verifyingLuxuryTag" description="Verify Luxury Tag" finished-at="2023-07-09T20:56:40 IST" duration-ms="2176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyingLuxuryTag -->
-      </class> <!-- TestCases.BrevistayRatingsAndTags -->
+        </test-method> <!-- checkValidUser -->
+      </class> <!-- PageFactoryExample.VerifyValidLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

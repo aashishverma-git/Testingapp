@@ -5,17 +5,6 @@
     <parameter name="city" value="Hyderabad"/>
     <parameter name="browsername" value="chrome"/>
     <classes>
-      <class name="TestCases.Brevistay">
-        <methods>
-          <include name="verifyingAreaFilter"/>
-          <include name="launchHomepage"/>
-          <include name="verifyingCoupleFriendly"/>
-          <include name="login"/>
-          <include name="selectCity"/>
-          <include name="browser"/>
-          <include name="verifyingCoupleFriendlywithpah"/>
-        </methods>
-      </class> <!-- TestCases.Brevistay -->
       <class name="TestCases.BrevistayRatingsAndTags">
         <methods>
           <include name="verifyingLuxuryTag"/>

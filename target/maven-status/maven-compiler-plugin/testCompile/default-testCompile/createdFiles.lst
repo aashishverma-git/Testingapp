@@ -1,5 +1,3 @@
+PageFactoryExample\VerifyValidLogin.class
 TestCases\DataSupplier.class
 TestCases\LearnigClass.class
-TestCases\Brevistay.class
-TestCases\BrevistayRatingsAndTags.class
-TestCases\TestGooglePage.class

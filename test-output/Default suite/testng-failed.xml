@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.Brevistay">
+      <class name="TestCases.BrevistayRatingsAndTags">
         <methods>
-          <include name="browser"/>
-          <include name="checkLinkStatus"/>
+          <include name="verifyingLuxuryTag"/>
+          <include name="verifyingPremiumTag"/>
+          <include name="prerequisites"/>
+          <include name="verifyRatingFourAndHalf"/>
         </methods>
-      </class> <!-- TestCases.Brevistay -->
+      </class> <!-- TestCases.BrevistayRatingsAndTags -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
